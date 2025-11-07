@@ -1,8 +1,15 @@
 {
   "name": "HA地图替换器",
+  "type": "plugin",
   "render_readme": true,
-  "content_in_root": true,
-  "filename": "ha-map-replacer.js",
-  "domains": [],
-  "homeassistant": "2023.1.0"
+  "resources": [
+    {
+      "file": "ha-map-replacer.js",
+      "type": "module"
+    },
+    {
+      "file": "config.json",
+      "type": "json"
+    }
+  ]
 }
